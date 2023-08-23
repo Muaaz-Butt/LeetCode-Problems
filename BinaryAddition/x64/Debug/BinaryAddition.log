@@ -1,0 +1,4 @@
+﻿  BinaryAddition.cpp
+E:\Github\LeetCode-Problems\BinaryAddition\BinaryAddition.cpp(9,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Github\LeetCode-Problems\BinaryAddition\BinaryAddition.cpp(10,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  BinaryAddition.vcxproj -> E:\Github\LeetCode-Problems\BinaryAddition\x64\Debug\BinaryAddition.exe

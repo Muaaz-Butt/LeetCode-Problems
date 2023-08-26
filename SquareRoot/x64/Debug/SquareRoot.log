@@ -1,0 +1,5 @@
+﻿  SquareRoot.cpp
+E:\Github\LeetCode-Problems\SquareRoot\SquareRoot.cpp(19,9): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+E:\Github\LeetCode-Problems\SquareRoot\SquareRoot.cpp(111,24): warning C4305: 'argument': truncation from '__int64' to 'uint32_t'
+E:\Github\LeetCode-Problems\SquareRoot\SquareRoot.cpp(111,24): warning C4309: 'argument': truncation of constant value
+  SquareRoot.vcxproj -> E:\Github\LeetCode-Problems\SquareRoot\x64\Debug\SquareRoot.exe

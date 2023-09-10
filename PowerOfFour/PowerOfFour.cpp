@@ -1,11 +1,11 @@
 class Solution {
 public:
-    bool isPowerOfThree(int n) {
+    bool isPowerOfFour(int n) {
         if (n <= 0) {
             return false;
         }
-        while (n % 3 == 0) {
-            n /= 3;
+        while (n % 4 == 0) {
+            n /= 4;
         }
         return n == 1;
     }

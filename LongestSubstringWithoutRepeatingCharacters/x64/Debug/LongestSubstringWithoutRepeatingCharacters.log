@@ -1,0 +1,3 @@
+﻿  LongestSubstringWithoutRepeatingCharacters.cpp
+E:\Github\LeetCode-Problems\LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.cpp(7,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LongestSubstringWithoutRepeatingCharacters.vcxproj -> E:\Github\LeetCode-Problems\LongestSubstringWithoutRepeatingCharacters\x64\Debug\LongestSubstringWithoutRepeatingCharacters.exe

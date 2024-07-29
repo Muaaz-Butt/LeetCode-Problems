@@ -1,19 +1,16 @@
+from collections import Counter
+
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-        char_count = {}
-        for char in magazine:
-            if char in char_count:
-                char_count[char] += 1
-            else:
-                char_count[char] = 1
-        
-        for char in ransomNote:
-            if char in char_count:
-                if char_count[char] != 0:
-                    char_count[char] -= 1
-                else:
-                    return False
-            else:
+        ransom_count = Counter(ransomNote)
+        magazine_count = Counter(magazine)
+    
+        for char, count in ransom_count.items():
+            if magazine_count[char] < count:
                 return False
-        
         return True
+    
+    """
+    By using Counter from collections which stores the count of characters of both strings
+    
+    """
